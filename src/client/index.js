@@ -1,7 +1,11 @@
-import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+import { checkForName } from './js/nameChecker';
+import { handleSubmit } from './js/formHandler';
+import './styles/resets.scss';
+import './styles/form.scss';
+import './styles/base.scss';
+import './styles/header.scss';
+import './styles/footer.scss';
+console.log(handleSubmit);
+console.log('import scss');
 
-console.log(checkForName);
-
-alert("I EXIST")
-console.log("CHANGE!!");
+console.log('CHANGE!!');
