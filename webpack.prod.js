@@ -4,10 +4,11 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-	entry: './src/client/index.js',
 	mode: 'production',
 	devtool: 'source-map',
+	entry: './src/client/index.js',
 	stats: 'verbose',
+
 	module: {
 		rules: [
 			{
